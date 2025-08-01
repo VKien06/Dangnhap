@@ -1,0 +1,20 @@
+body{
+  display:flex;
+  background-color: #7a7676;
+}
+.header{
+  width:100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.box{
+  width: max-content;
+  padding: 8px;
+  background-color:#bce1ef;
+  text-decoration:none;
+  color: black;
+  border-radius: 6px;
+}
+#box1{
+  margin-right: 8px;
+}

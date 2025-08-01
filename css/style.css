@@ -1,0 +1,70 @@
+body{
+    display: flex;/*cho phép sắp xếp căn chỉnh các phần tử con dễ dàng*/
+    justify-content:center; /*Căn giữa theo chiều ngang nội dung bên trong body.Giúp khung đăng nhập nằm chính giữa màn hình theo trục X.*/
+    align-items:center; /*Căn giữa theo chiều dọc.Kết hợp với justify-content: center, khung đăng nhập sẽ nằm chính giữa cả chiều ngang lẫn chiều dọc. */
+    height: 100vh;
+    background-color: #c4c4c4;
+    font-family: Arial, sans-serif;
+}
+.login-container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, select{
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+select{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.forget{
+  padding:8px;
+  text-align: center;
+  margin-bottom: 13px;
+
+}
+.forget a{
+  text-decoration: none;
+
+}
+
+
+ 
+
